@@ -1,70 +1,107 @@
 # Logistics-Performance-Analysis
-Logistics Performance Optimization Report
-1. Executive Summary
+**📦 FedEx Logistics Performance Analysis Dashboard**
+**🔎 Overview**
 
-This report analyzes 9,000 shipments to evaluate freight cost efficiency, lead time performance, and service reliability. The objective is to identify cost-saving opportunities and operational improvements.
+This project analyzes global shipment performance and freight cost distribution using an interactive Power BI dashboard.
 
-2. Dataset Overview
+The goal is to identify operational inefficiencies, cost drivers, and service-level performance across countries, vendors, and shipment modes.
 
-Shipment records: 9,000+
+**📊 Key Metrics**
 
-Countries: Multiple global markets
+Total Shipments: 9K
 
-Shipment Modes: Air, Ocean, Truck, Charter
+Total Commodity Value: $1.56B
 
-Vendors: Multiple logistics partners
+Total Freight Cost: $68.69M
 
-Metrics: Lead time, Freight cost, Commodity value, Delivery status
+Average Lead Time: 111 Days
 
-3. Key Findings
-3.1 Lead Time Concern
+On-Time Delivery Rate: 87.05%
 
-Average lead time: 111 days
+Freight Per Kg: 38.93
 
-Some shipment modes significantly increase delivery duration.
+**🧠 Business Objectives**
 
-3.2 Freight Cost Distribution
+Improve on-time delivery performance
 
-A few countries contribute majority of freight cost.
+Reduce average lead time
 
-High-cost regions need route or contract optimization.
+Optimize freight cost distribution
 
-3.3 On-Time Delivery
+Identify high-cost countries and vendors
 
-Overall rate: 87.05%
+Analyze shipment mode efficiency
 
-Improvement opportunity to reach 92–95% industry benchmark.
+**📈 Dashboard Features**
+1️⃣ KPI Summary Panel
 
-3.4 Vendor Risk
+High-level operational metrics to track logistics health.
 
-Shipment volume heavily concentrated among limited vendors.
+2️⃣ Monthly On-Time Performance
 
-Risk of dependency and negotiation imbalance.
+Trend analysis to monitor service-level stability.
 
-3.5 Mode Trade-Off
+3️⃣ Freight Cost by Country
 
-Air = faster but expensive
+Identifies top cost-contributing regions.
 
-Ocean = cost-effective but long lead time
+4️⃣ Shipment Mode Analysis
 
-4. Recommendations
+Compares Air, Ocean, Truck, Charter performance.
 
-Introduce SLA monitoring by vendor.
+5️⃣ Vendor Shipment Distribution
 
-Optimize route planning in high-cost countries.
+Highlights vendor concentration risk.
 
-Use predictive lead time modeling.
+6️⃣ Lead Time vs Freight Cost Correlation
 
-Negotiate high-volume vendor contracts.
+Scatter plot to identify cost-performance trade-offs.
 
-Improve shipment mode decision framework using cost vs urgency matrix.
+**🛠 Tools & Technologies**
 
-5. Future Enhancements
+Power BI
 
-Predictive delay model
+DAX
 
-Freight cost forecasting
+Data Modeling
 
-What-if scenario analysis
+Data Cleaning & Transformation
 
-Automated vendor performance scoring
+Supply Chain Analytics
+
+**📊 Key Insights**
+
+Air shipments show faster delivery but higher freight cost.
+
+Few countries contribute disproportionately to freight expenses.
+
+Vendor concentration risk exists with top shipment providers.
+
+Lead time variability suggests operational bottlenecks.
+
+**🚀 Business Impact**
+
+This dashboard enables logistics leadership to:
+
+Reduce operational cost
+
+Improve SLA compliance
+
+Optimize shipment mode selection
+
+Strengthen vendor negotiation strategy
+
+**📂 Project Structure**
+
+Dataset (cleaned logistics data)
+
+Power BI (.pbix) file
+
+Dashboard screenshot
+
+Business report (PDF)
+
+**👤 Author**
+
+Sreekumar
+Data Analyst | Supply Chain | Logistics Analytics
